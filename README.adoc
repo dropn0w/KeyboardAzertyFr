@@ -1,5 +1,11 @@
 = French AZERTY Keyboard Library for Arduino =
 
+*** UPDATE => In their previous version, when you need to import the library keyboard.h (french version) and execute the payload on Arduino, a error accurs with the Keyboard.cpp file. 
+They forgot to add something in one line, I corrected it. Everything is functionnal now.
+
+You can just copy those files and past them on your arduino/libraries/Keyboard file.
+
+
 This library allows an Arduino board with USB capabilites to act as a french AZERTY Keyboard.
 
 For more information about the original Keyboard library please visit
